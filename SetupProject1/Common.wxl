@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+	<String Id="ProductName_x86">HistoryLogger (32-bit)</String>
+  <String Id="ProductName_x64">HistoryLogger (64-bit)</String>
+
+  <String Id="CompanyFolderName">PovlTekstTV</String>
+  <String Id="ProductFolderName">HistoryLogger</String>
+  
+</WixLocalization>

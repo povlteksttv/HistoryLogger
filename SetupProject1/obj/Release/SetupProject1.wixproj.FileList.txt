@@ -1,0 +1,13 @@
+C:\Users\PovlTekstTV\Source\Repos\PovlBrowserHistory\SetupProject1\bin\Release\en-us\PovlBrowserHistory-Release-x64.msi
+C:\Users\PovlTekstTV\Source\Repos\PovlBrowserHistory\SetupProject1\bin\Release\en-us\PovlBrowserHistory-Release-x64.wixpdb
+obj\Release\Components.wixobj
+obj\Release\Directories.wixobj
+obj\Release\Product.wixobj
+obj\Release\SetupProject1.wixproj.BindContentsFileListen-us.txt
+obj\Release\SetupProject1.wixproj.BindOutputsFileListen-us.txt
+obj\Release\SetupProject1.wixproj.BindBuiltOutputsFileListen-us.txt
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x64\en-us\HistoryLogger-Release-x64.msi
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x64\en-us\HistoryLogger-Release-x64.wixpdb
+obj\Release\ComponentsGenereated.wixobj
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.msi
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.wixpdb

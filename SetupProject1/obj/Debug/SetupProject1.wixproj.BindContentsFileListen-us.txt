@@ -1,0 +1,17 @@
+..\HistoryLogger\bin\x64\Debug\\System.Numerics.Vectors.dll
+..\HistoryLogger\bin\x64\Debug\\System.Memory.xml
+..\HistoryLogger\bin\x64\Debug\\System.Data.SQLite.xml
+..\HistoryLogger\bin\x64\Debug\\System.Data.SQLite.dll.config
+..\HistoryLogger\bin\x64\Debug\\HistoryLogger.pdb
+..\HistoryLogger\bin\x64\Debug\\System.Numerics.Vectors.xml
+..\HistoryLogger\bin\x64\Debug\\HistoryLogger.exe.config
+..\HistoryLogger\bin\x64\Debug\\SQLitePCLRaw.core.dll
+..\HistoryLogger\bin\x64\Debug\\System.Buffers.xml
+..\HistoryLogger\bin\x64\Debug\\System.Data.SQLite.dll
+..\HistoryLogger\bin\x64\Debug\\System.Runtime.CompilerServices.Unsafe.dll
+..\HistoryLogger\bin\x64\Debug\\System.Buffers.dll
+..\HistoryLogger\bin\x64\Debug\\System.Runtime.CompilerServices.Unsafe.xml
+..\HistoryLogger\bin\x64\Debug\\x64\SQLite.Interop.dll
+..\HistoryLogger\bin\x64\Debug\\x86\SQLite.Interop.dll
+..\HistoryLogger\bin\x64\Debug\\System.Memory.dll
+c:\temp\HistoryLogger.exe

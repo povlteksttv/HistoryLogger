@@ -1,0 +1,2 @@
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Debug\x64\en-us\HistoryLogger-Debug-x64.msi
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Debug\x64\en-us\HistoryLogger-Debug-x64.wixpdb

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+	  
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <ComponentRef Id="HistoryLogger_exe"/>
+      <ComponentRef Id="LogFolder"/>
+    </ComponentGroup>
+	  <!-- Source='..\HistoryLogger\bin\$(var.Configuration)\HistoryLogger.exe' -->
+
+	  <DirectoryRef Id="INSTALLFOLDER">
+        <Component Id='HistoryLogger_exe' Guid='{6EDA8E44-6C4E-4573-9298-528E2C02F675}'> 
+         <File Id='HistoryLoggery_exe_file' Source='c:\temp\HistoryLogger.exe' Name='HistoryLogger.exe' Vital='yes' /> 
+        <ServiceInstall Id="ServiceInstaller" Type="ownProcess" Vital="yes" Name="HistoryLogger" DisplayName="HistoryLoggerService" Start="auto" Account="LocalSystem" ErrorControl="ignore" Interactive="no"/>
+        <ServiceControl Id="StartService" Start="install" Stop="both" Remove="uninstall" Name="HistoryLogger" Wait="yes" />
+      </Component>
+    </DirectoryRef>
+    
+  </Fragment>
+</Wix>

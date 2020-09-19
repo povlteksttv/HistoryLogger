@@ -1,0 +1,2 @@
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.msi
+C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.wixpdb

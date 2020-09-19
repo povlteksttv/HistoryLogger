@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<?if $(var.Platform)=x64 ?>
+  <?define ProductCode = "{0F283138-DA1B-4C9E-AD01-ACC740C6AD05}"?>
+  <?else?>
+  <?define ProductCode = "{207BA229-1686-4837-A7CD-444C0933E1F1}"?>
+  <?endif?>
+  
+  <?define BuildVersion = 1.0.0.0 ?>
+  <?define UpgradeCode = {BBA0536F-B109-4A4C-A23D-326CD7538AB4} ?>
+  
+  <Product Id="$(var.ProductCode)" 
+           Name="!(loc.ProductName_$(var.Platform))" 
+           Language="1033" 
+           Version="$(var.BuildVersion)" 
+           Manufacturer="PovlTekstTV" 
+           UpgradeCode="$(var.UpgradeCode)">
+		
+    <Package InstallerVersion="200" 
+             Compressed="yes" 
+             InstallScope="perMachine" 
+             Platform="$(var.Platform)"
+             Manufacturer="PovlTekstTV"
+             Description="Povl"
+             Keywords="Lolz"
+             Comments="TekstTV"
+             />
+
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of !(loc.ProductName_$(var.Platform)) is already installed." />
+
+    <MediaTemplate
+      EmbedCab="yes" />
+
+    <Icon Id="Icon.ico" SourceFile="$(var.HistoryLogger.ProjectDir)\history.ico"/>
+
+    <!-- Use the Icon.ico ID in the installer-->
+    <Property Id="ARPPRODUCTICON">icon.ico</Property>
+    <Property Id="ARPURLINFOABOUT">https://github.com/povlteksttv</Property>
+
+	  <!--
+	  <UIRef Id="WixUI_Minimal"/>
+	  <WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\WixUIDialogBmp_2x.bmp" />
+	  <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\License.rtf" />
+	  <WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Banner.bmp" />
+        -->
+    
+	  <Feature Id="ProductFeature" Title="HistoryLogger" Level="1">
+		  <ComponentGroupRef Id="ProductComponents" />
+	  	  <ComponentGroupRef Id="PublishedComponents" />
+	  </Feature>
+
+  </Product>
+	
+</Wix>
