@@ -2,6 +2,7 @@
 
 HistoryLogger monitors the history databases of Chrome, Firefox, and Microsoft Edge every single minute. The service then updates a readable log file for each browser containing the users activity. Chrome and Edge does not update their respective SQLite databases until the browser is closed, which unfortunately means that HistoryLogger does not check Chrome and Edge while those browsers are running. 
 
+For more information, read the article at Medium: https://medium.com/@povl.teksttv/monitoring-browser-history-using-historylogger-nxlog-and-elk-606877d656fb
 
 
 ## Why HistoryLogger? 
