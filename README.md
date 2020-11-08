@@ -13,7 +13,7 @@ Web-browsers are used for almost everything these days: Reading PDFs, browsing t
 
 ## Where are the logs and how do they look? 
 
-For each browser, HistoryLogger, will create a log file located in C:\Program Files\PovlTekstTV\HistoryLogger\Logs. The log files are named: chrome_log.txt, firefox_log.txt, and edge_log.txt. An example of one of these files is shown below: *Line 3, is an example of a full Google-search (Google-søgning is Danish )* 
+For each browser, HistoryLogger, will create a log file located in C:\Program Files\PovlTekstTV\HistoryLogger\Logs. The log files are named: chrome_log.txt, firefox_log.txt, and edge_log.txt. An example of one of these files is shown below: (First line is a full google search normally encrypted)
 
 
 
