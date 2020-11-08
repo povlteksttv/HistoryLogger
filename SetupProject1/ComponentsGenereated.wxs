@@ -2,55 +2,55 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLFOLDER">
-            <Component Id="cmp7DADFEBF2F3292DCD433DA01C1F506D3" Guid="{8D8402DB-C8E5-48AC-B03E-42AB209558CF}">
+            <Component Id="cmp7DADFEBF2F3292DCD433DA01C1F506D3" Guid="{C4DCECB7-ABAB-4428-8031-07D219D467B6}">
                 <File Id="fil4C78E175471E1EABEE9460B9F2B081BB" KeyPath="yes" Source="$(var.BasePath)\HistoryLogger.exe.config" />
             </Component>
-            <Component Id="cmp7B28D0D9212330A363C9117577C3C088" Guid="{F46695F5-E915-4D29-9C06-A3C5060A2FE0}">
+            <Component Id="cmp7B28D0D9212330A363C9117577C3C088" Guid="{5CE87AED-58B1-459E-B6DF-7BCA0241E0AA}">
                 <File Id="fil241C7FF36B5542C79E87820BA95CA5B3" KeyPath="yes" Source="$(var.BasePath)\HistoryLogger.pdb" />
             </Component>
-            <Component Id="cmp9E349E891D154ADBFB83038532027A46" Guid="{C2886D5E-E8BD-479A-8B32-BDD0B54649AB}">
+            <Component Id="cmp9E349E891D154ADBFB83038532027A46" Guid="{2B9999BC-F5DB-45A6-9B54-D21BD884B311}">
                 <File Id="fil64FA3FA0141690B101C8E041EB30B810" KeyPath="yes" Source="$(var.BasePath)\SQLitePCLRaw.core.dll" />
             </Component>
-            <Component Id="cmpA748C45814948C0E47F0962CF5A9E2C5" Guid="{D6D6C6C7-E8E4-4FDE-8517-A88D9A403CAD}">
+            <Component Id="cmpA748C45814948C0E47F0962CF5A9E2C5" Guid="{DF2468C6-F3B4-44FE-829A-E3BFD9C40A27}">
                 <File Id="filAF63FF48A59E0E5E7F49BFD1CBBB0CC3" KeyPath="yes" Source="$(var.BasePath)\System.Buffers.dll" />
             </Component>
-            <Component Id="cmp43B367B7670D98D184AF521921EF1F06" Guid="{94FFAB33-5094-42A6-9B10-267E1430C1BA}">
+            <Component Id="cmp43B367B7670D98D184AF521921EF1F06" Guid="{659314F1-D533-4B01-8784-D6F55D4BF054}">
                 <File Id="fil847587E301997E5BCE3BEE66F570E914" KeyPath="yes" Source="$(var.BasePath)\System.Buffers.xml" />
             </Component>
-            <Component Id="cmp6B7CE49F5F3A518047B74FB6AC2251C5" Guid="{15803BF7-6881-40EF-95A3-207138019677}">
+            <Component Id="cmp6B7CE49F5F3A518047B74FB6AC2251C5" Guid="{12972368-C1BB-4A0C-B811-7D6BB730B7C7}">
                 <File Id="fil86030949C08D40073D1F77D572C14B0D" KeyPath="yes" Source="$(var.BasePath)\System.Data.SQLite.dll" />
             </Component>
-            <Component Id="cmpE25D4339F043AE9AF876A4620A6432C9" Guid="{1F7AC4F4-9D66-47CA-8C46-E3B6ACCE0AC3}">
+            <Component Id="cmpE25D4339F043AE9AF876A4620A6432C9" Guid="{8CA06C6F-9845-4C26-90A0-286AA63164DF}">
                 <File Id="fil231CA1DE8C286CE1F5188773A945762D" KeyPath="yes" Source="$(var.BasePath)\System.Data.SQLite.dll.config" />
             </Component>
-            <Component Id="cmpB0D00055965EDE11CC624747CE56C686" Guid="{9F2B8756-E427-4E31-86EF-83867CE1B126}">
+            <Component Id="cmpB0D00055965EDE11CC624747CE56C686" Guid="{F624D156-71BB-4F23-86EA-5B14CE4465E9}">
                 <File Id="fil1AD5F5CE645B996B33CF1EF5C058BA4F" KeyPath="yes" Source="$(var.BasePath)\System.Data.SQLite.xml" />
             </Component>
-            <Component Id="cmp642ED5B0D0BD1F16347D1310992C55A0" Guid="{5E9786F2-DD81-4C8E-AB80-04008280203B}">
+            <Component Id="cmp642ED5B0D0BD1F16347D1310992C55A0" Guid="{CA1F7E9C-5A06-4D29-ACD9-D183029ADA31}">
                 <File Id="filFA1D7EC932018D1CCB80F9F43D328009" KeyPath="yes" Source="$(var.BasePath)\System.Memory.dll" />
             </Component>
-            <Component Id="cmpCA76CA3139BC1AFF84F4D7B62A0A2E50" Guid="{53295698-0E1F-40DB-B7C6-29B11755A979}">
+            <Component Id="cmpCA76CA3139BC1AFF84F4D7B62A0A2E50" Guid="{C87696E5-D9F6-4AE4-9E13-A5ED55351C82}">
                 <File Id="fil15AAA59830C5BBED182F2B20C24EED09" KeyPath="yes" Source="$(var.BasePath)\System.Memory.xml" />
             </Component>
-            <Component Id="cmp89AE5ECEB789ECF60BE6CC568D60B2F9" Guid="{A8DB3AF3-D322-4BFD-A103-92B82A31FA77}">
+            <Component Id="cmp89AE5ECEB789ECF60BE6CC568D60B2F9" Guid="{FC3B34D1-67CF-4E2B-8D08-A9DB705B6CA7}">
                 <File Id="fil07CC506FCE6F39AF87379627460A5FFB" KeyPath="yes" Source="$(var.BasePath)\System.Numerics.Vectors.dll" />
             </Component>
-            <Component Id="cmp7F4E1743772CD37619404A9AC36DC178" Guid="{1C48C6F8-AF13-425B-9876-F42C3522E3A2}">
+            <Component Id="cmp7F4E1743772CD37619404A9AC36DC178" Guid="{0123D68E-03A0-4179-B6DD-72010AD14CFB}">
                 <File Id="fil38F381E638DECC1D77506EC6574A8C81" KeyPath="yes" Source="$(var.BasePath)\System.Numerics.Vectors.xml" />
             </Component>
-            <Component Id="cmpAFCF21A15F6EDA45A32D147050609285" Guid="{FA81E6D2-CAB4-4441-BDF1-A59E578EB660}">
+            <Component Id="cmpAFCF21A15F6EDA45A32D147050609285" Guid="{B95F5447-50AC-4470-AFE3-935844293C2D}">
                 <File Id="filAE286E96EA00902BC284AEBF3030D6E4" KeyPath="yes" Source="$(var.BasePath)\System.Runtime.CompilerServices.Unsafe.dll" />
             </Component>
-            <Component Id="cmpC91BFEFF501F5C69C8F325CE32921C40" Guid="{90001A2D-D4D0-41D6-B841-F7375FA38F15}">
+            <Component Id="cmpC91BFEFF501F5C69C8F325CE32921C40" Guid="{A3C315A3-DCEF-4FB0-A9D1-7BD9953B490B}">
                 <File Id="filB829C3862F1FEA164719D0F8015AAD50" KeyPath="yes" Source="$(var.BasePath)\System.Runtime.CompilerServices.Unsafe.xml" />
             </Component>
             <Directory Id="dir43FCCFA109FBF584D9155DCE31E452EB" Name="x64">
-                <Component Id="cmp19F6DF8A2ABC78D782D76F1EEC9A5800" Guid="{1971E557-BE3A-4C35-870D-F22D7CEE200B}">
+                <Component Id="cmp19F6DF8A2ABC78D782D76F1EEC9A5800" Guid="{ACAA7F4C-5AC1-474D-A71C-22359659EFDD}">
                     <File Id="filC7EA62E1AC64247AFBE682E8631402B8" KeyPath="yes" Source="$(var.BasePath)\x64\SQLite.Interop.dll" />
                 </Component>
             </Directory>
             <Directory Id="dir97F42FF68945B97AAE670945C4FDAE93" Name="x86">
-                <Component Id="cmp77484AF39EF2F8BD64E876C33A1C3E49" Guid="{D59B6463-1F6F-4449-AACF-A342F47A62D0}">
+                <Component Id="cmp77484AF39EF2F8BD64E876C33A1C3E49" Guid="{446D68CA-F641-45EC-AD9F-9EBB132EAAB1}">
                     <File Id="filD2ACACD0EBAF09B1953E9C3793C13C69" KeyPath="yes" Source="$(var.BasePath)\x86\SQLite.Interop.dll" />
                 </Component>
             </Directory>

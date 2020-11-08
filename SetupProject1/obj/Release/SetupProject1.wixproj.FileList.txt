@@ -11,3 +11,7 @@ C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x64\en
 obj\Release\ComponentsGenereated.wixobj
 C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.msi
 C:\Users\PovlTekstTV\Source\Repos\HistoryLogger\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.wixpdb
+C:\Users\PovlTekstTV\Documents\GitHub\HistoryLogger_code\SetupProject1\bin\Release\x64\en-us\HistoryLogger-Release-x64.msi
+C:\Users\PovlTekstTV\Documents\GitHub\HistoryLogger_code\SetupProject1\bin\Release\x64\en-us\HistoryLogger-Release-x64.wixpdb
+C:\Users\PovlTekstTV\Documents\GitHub\HistoryLogger_code\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.msi
+C:\Users\PovlTekstTV\Documents\GitHub\HistoryLogger_code\SetupProject1\bin\Release\x86\en-us\HistoryLogger-Release-x86.wixpdb
