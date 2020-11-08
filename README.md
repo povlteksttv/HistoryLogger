@@ -17,7 +17,7 @@ For each browser, HistoryLogger, will create a log file located in C:\Program Fi
 
 
 
-<img src="https://medium.com/@povl.teksttv/monitoring-browser-history-using-historylogger-nxlog-and-elk-606877d656fb" style="zoom: 100%;" />
+<img src="https://raw.githubusercontent.com/povlteksttv/HistoryLogger/master/img/log.png" style="zoom: 100%;" />
 
 
 
