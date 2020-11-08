@@ -29,7 +29,7 @@ The logs can easily be collected by programs such as NXLog and be shipped to Sec
 
 ## Where to download HistoryLogger?
 
-HistoryLogger is currently available in both 32-bit and 64-bit. It's been tested on both Windows 7 and Windows 10. HistoryLogger can be downloaded from: https://github.com/povlteksttv/HistoryLogger
+HistoryLogger is currently available in both 32-bit and 64-bit. It's been tested on both Windows 7 and Windows 10. HistoryLogger can be downloaded from: https://github.com/povlteksttv/HistoryLogger/releases/tag/1.0.0.0
 
 
 
