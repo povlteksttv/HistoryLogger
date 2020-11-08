@@ -1,4 +1,4 @@
-## HistoryLogger: A light-weight Browser History Logger
+## HistoryLogger: A light-weight Browser-History Logger
 
 HistoryLogger monitors the history databases of Chrome, Firefox, and Microsoft Edge every single minute. The service then updates a readable log file for each browser containing the users activity. Chrome and Edge does not update their respective SQLite databases until the browser is closed, which unfortunately means that HistoryLogger does not check Chrome and Edge while those browsers are running. 
 
